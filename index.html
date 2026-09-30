@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Alvin James Agot, Go developer and apprentice at Zone01 Kisumu, Kenya.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🐹%3C/text%3E%3C/svg%3E">
+<title>Alvin James Agot — Go developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main"><a href="#projects">Projects</a><a href="#writing">Writing</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<div>
+<img class="avatar" src="assets/images/profile.jpg" width="112" height="112" alt="Portrait of Alvin James Agot">
+<h1>Alvin James Agot</h1>
+<p>Go developer building backend systems, APIs and real-time apps. Apprentice at Zone01 Kisumu, based in Kisumu, Kenya.</p>
+<div class="links">
+<a class="btn main" href="#projects">See my work</a>
+<a class="btn" href="https://github.com/alvinjames-max">GitHub</a>
+<a class="btn" href="https://linkedin.com/in/alvin-agot-0ba39a3ba">LinkedIn</a>
+<a class="btn" href="https://dev.to/alvin_james">dev.to</a>
+</div>
+</div>
+<div class="code" role="img" aria-label="A Go program that prints Alvin James Agot, Go developer"><span class="k">func</span> main() {
+    fmt.Println(<span class="s">"Alvin James Agot"</span>)
+    fmt.Println(<span class="s">"Go developer"</span>)
+}
+<div class="out">Alvin James Agot
+Go developer<span class="cursor"></span></div></div>
+</header>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<article class="proj">
+<div><h3>Social network</h3><div class="meta">Zone01 Kisumu project</div></div>
+<div>
+<p>A Facebook-style app with followers, profiles, posts, groups, notifications and live chat. The Go backend uses sessions and cookies for auth and Gorilla WebSocket for real-time features.</p>
+<ul class="tags"><li>Go</li><li>SQLite</li><li>WebSocket</li><li>Next.js</li><li>Docker</li></ul>
+<a href="https://github.com/alvinjames-max">Code on GitHub</a>
+</div>
+</article>
+
+<article class="proj">
+<div><h3>Guidely</h3><div class="meta">Internal knowledge assistant</div></div>
+<div>
+<p>Answers questions about company documents and cites its sources. Documents are parsed, chunked, embedded with caching, stored in FAISS, then passed to an LLM. Built on free-tier Gemini and Groq APIs, with a FastAPI backend and React frontend.</p>
+<ul class="tags"><li>Python</li><li>FastAPI</li><li>FAISS</li><li>React</li><li>Vite</li></ul>
+<a href="https://github.com/alvinjames-max">Code on GitHub</a>
+</div>
+</article>
+
+<article class="proj">
+<div><h3>KeepSafe</h3><div class="meta">Team project, design and architecture</div></div>
+<div>
+<p>A community-driven safety platform for Kenyan commuters. Users get real-time geofence alerts near danger zones, report incidents that moderators verify, and send a one-tap SOS to trusted contacts. I co-own the Panic SOS module and the admin dashboard.</p>
+<ul class="tags"><li>Node.js</li><li>Express</li><li>TypeScript</li><li>React Native</li><li>Firebase</li><li>Google Maps API</li></ul>
+<img class="shot" src="assets/images/keepsafe-overview.jpg" width="1400" height="933" alt="KeepSafe overview: problem, solution, system architecture, incident lifecycle, tech stack and admin dashboard preview" loading="lazy">
+</div>
+</article>
+
+<article class="proj">
+<div><h3>Jeycyl Cakes</h3><div class="meta">Personal project</div></div>
+<div>
+<p>Ordering platform for a cake business. A JSON API in Go handles orders, payments, admin login, image uploads and WhatsApp notifications. The frontend is a separate Next.js app.</p>
+<ul class="tags"><li>Go</li><li>SQLite</li><li>REST API</li><li>Next.js</li></ul>
+<a href="https://github.com/alvinjames-max">Code on GitHub</a>
+</div>
+</article>
+
+<article class="proj">
+<div><h3>Go forum</h3><div class="meta">Team project, Zone01 Kisumu</div></div>
+<div>
+<p>A web forum written in Go by a team of peers. I built the posts and comments feature: handlers, database queries and tests. Teammates covered auth and sessions, likes and filters, frontend templates, and the Docker setup.</p>
+<ul class="tags"><li>Go</li><li>Docker</li><li>Unit tests</li><li>Git teamwork</li></ul>
+<a href="https://github.com/alvinjames-max">Code on GitHub</a>
+</div>
+</article>
+
+</section>
+
+<section id="more">
+<h2>Also built</h2>
+<ul class="also">
+<li><strong>lem-in</strong><span>Team pathfinding system in Go that routes ants through a colony of rooms and tunnels.</span></li>
+<li><strong>NetCat group chat</strong><span>TCP chat server in Go using one goroutine and channel per client.</span></li>
+</ul>
+</section>
+
+<section id="writing">
+<h2>Writing</h2>
+<p class="about">I write about what I build and learn as a Go developer. Articles are on dev.to.</p>
+<p><a class="btn main" href="https://dev.to/alvin_james">Read my articles on dev.to</a></p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Backend</h3><p>Go, REST APIs, SQLite, sessions and auth, WebSockets</p></div>
+<div><h3>Frontend</h3><p>JavaScript, React, Next.js</p></div>
+<div><h3>Tooling</h3><p>Docker, Git, FastAPI</p></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="role">
+<h3>Apprentice developer, Zone01 Kisumu</h3>
+<p>Project-based, peer-learning software training in Kisumu, Kenya. No lectures: I learn by building, reading other people's code and shipping with a team.</p>
+<ul>
+<li>Built backend and full-stack projects in Go and JavaScript, including a social network, a web forum and a chat server.</li>
+<li>Worked in teams on shared Git repositories, with feature branches, merges and code review.</li>
+<li>Owned the posts and comments feature of the Go forum: handlers, database queries and tests.</li>
+<li>Debugged real team problems, such as missing packages from unmerged branches and test deadlocks from database connection limits.</li>
+</ul>
+</div>
+<div class="role">
+<h3>Community and events</h3>
+<p>Attended the Zone01 Kisumu Backend Frameworks Mini-Conference at Lakehub and wrote up a recap from a Go developer's point of view.</p>
+</div>
+</section>
+
+<section id="about">
+<h2>About</h2>
+<div class="about">
+<p>I'm a software developer training at Zone01 Kisumu, a peer-learning coding school. Go is my main language. I like backend work, APIs and real-time systems.</p>
+<p>My style is small, modular code with as few dependencies as I can get away with. I'd rather understand the standard library than reach for a framework first.</p>
+<p>I like knowing what happens underneath the code: DNS, NAT, TCP and UDP, packet routing and the OSI model are all topics I've studied in depth. I'm also exploring cloud and DevOps, starting with Linux, Git, Docker and CI/CD.</p>
+<p>Outside code, I love travelling and exploring new places.</p>
+<p>I'm based in Kisumu and follow the Kenyan tech and startup scene closely. I'm looking for a junior backend role where I can keep building with Go and learn from a team.</p>
+</div>
+</section>
+
+<footer id="contact">
+<h2>Get in touch</h2>
+<div class="links">
+<a class="btn main" href="mailto:agot.alvinjames@gmail.com">agot.alvinjames@gmail.com</a>
+<a class="btn" href="https://github.com/alvinjames-max">GitHub</a>
+<a class="btn" href="https://linkedin.com/in/alvin-agot-0ba39a3ba">LinkedIn</a>
+<a class="btn" href="https://dev.to/alvin_james">dev.to</a>
+</div>
+<small>Alvin James Agot, Kisumu, Kenya</small>
+</footer>
+</div>
+</body>
+</html>
